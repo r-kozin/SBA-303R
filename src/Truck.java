@@ -15,4 +15,12 @@ public class Truck extends Car{
             return super.getSalePrice() * .8;
         }
     }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
 }
